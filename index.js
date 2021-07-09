@@ -11,11 +11,11 @@ automobiliai.prideti('tesla');
 automobiliai.prideti('zapas');
 automobiliai.prideti('gazelka');
 
-automobiliai.redaguoti(10, 'mazda');
-automobiliai.redaguoti(-1, 'mazda');
-automobiliai.redaguoti(2.5, 'mazda');
-
 automobiliai.redaguoti(3, 'opel');
+
+automobiliai.pasalinti(1);
+automobiliai.pasalinti(3);
+automobiliai.pasalinti(2);
 
 automobiliai.spausdinti();
 
